@@ -1,0 +1,96 @@
+<!doctype html><html><head><meta charset=UTF-8><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=white><meta name=referrer content=none><link rel="shortcut icon" type=image/x-icon href=/static/favicon.ico><script src=/static/sliderAli.js></script><script src=//at.alicdn.com/t/c/font_3696298_9tbu82fgmo.js></script><title>123云盘</title><style type=text/css>#nc{
+        position: unset;
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+        overflow: hidden;
+        width: 88%;
+    }
+    .nc-container .nc_scale span{
+        height:34px !important;
+    }</style><link href=https://statics.123pan.com/dist/commons_2e1d3804.css rel=stylesheet><link href=https://statics.123pan.com/dist/app_53f9da98.css rel=stylesheet></head><script>if (location.pathname.split("/")[location.pathname.split("/").length - 2] == 's') {
+        const headItem = document.head;
+        let oMeta = document.createElement('meta');
+        oMeta.setAttribute('name', 'viewport');
+        oMeta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';
+        headItem.appendChild(oMeta)
+    }
+
+
+    function myBrowser() {
+        if (!!window.ActiveXObject || "ActiveXObject" in window) {
+            return true
+        } else {
+            return false
+        }
+    }
+    //以下是调用上面的函数
+    var mb = myBrowser();
+    var karls;
+    console.log(navigator.userAgent.toLowerCase())
+    if (mb) alert("暂不支持IE浏览器，请用非IE浏览器打开");
+    if (globalThis === undefined) {
+        var globalThis = window;
+    }
+    if (navigator.cookieEnabled && typeof window.sessionStorage !== 'undefined') {
+    }
+    const inBrowser = typeof window !== 'undefined'
+    const UA = inBrowser && window.navigator.userAgent.toLowerCase()
+    // if(UA && UA.indexOf('edg/') > 0) alert("暂不支持Edge浏览器，请用非Edge浏览器打开");
+    function getChromeVersion() {
+        var arr = navigator.userAgent.split(' ');
+        var chromeVersion = '';
+        for (var i = 0; i < arr.length; i++) {
+            if (/chrome/i.test(arr[i]))
+                chromeVersion = arr[i]
+        }
+        if (chromeVersion) {
+            return Number(chromeVersion.split('/')[1].split('.')[0]);
+        } else {
+            return false;
+        }
+    }
+    if (getChromeVersion()) {
+        var version = getChromeVersion();
+        if (version < 70) {
+            alert('您使用的浏览器版本过低，为了更好地体验请将浏览器升级到最新版本！');
+        }
+    }
+
+
+
+    //屏蔽浏览器右键菜单
+    // if (window.Event)
+    //     document.captureEvents(Event.MOUSEUP);
+    // function nocontextmenu() {
+    //     event.cancelBubble = true
+    //     event.returnValue = false;
+    //     return false;
+    // }
+    // function norightclick(e) {
+    //     if (window.Event) {
+    //         if (e.which == 2 || e.which == 3)
+    //             return false;
+    //     }
+    //     else
+    //         if (event.button == 2 || event.button == 3) {
+    //             event.cancelBubble = true
+    //             event.returnValue = false;
+    //             return false;
+    //         }
+    // }
+    // document.oncontextmenu = nocontextmenu; // for IE5+ 
+    // document.onmousedown = norightclick; // for all others</script><script type=text/javascript>window.onload = function () {
+        // 延迟CNZZ统计, 以免影响页面载入
+        var cz = document.createElement("script");
+        cz.src = "//s4.cnzz.com/z_stat.php?id=1280304515&web_id=1280304515";
+        document.getElementsByTagName('body')[0].appendChild(cz);
+    }
+
+// document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1280304515'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1280304515' type='text/javascript'%3E%3C/script%3E"));</script><body><div id=app></div><div id=sliderMask style="width: 100%;height: 100vh;z-index: 9999;overflow: hidden;display: none;flex-direction: row;align-items: center;justify-content: center;position:fixed;left: 0;top:0;background: #ccc;opacity: 0.3;"></div><div id=sliderSpan style="background: #fff;width: 380px;position:fixed;left:0;right: 0;margin: 0 auto;top:200px;display: none;flex-direction: column;z-index:10000;"><div style="width: 380px;height: 32px;background: #F8F8F8;padding: 0 20px;line-height: 32px;"><span>滑块验证</span></div><div style="display: flex;flex-direction: column;align-items: center;justify-content: center;margin-top: 20px;padding: 0 20px 20px 20px;"><div><img style="border:1px dashed #ccc;width: 300px;" src=/static/sliderali.png alt=""> <span></span></div><div id=nc></div></div></div><script src=https://statics.123pan.com/dist/commons.c7d6051fc13217e302a4.js></script><script src=https://statics.123pan.com/dist/app.87c6be619ba85b7d9f25.js></script><script src=https://statics.123pan.com/dist/vendor.4286daa2d2e83b08e364.js></script></body></html><script src=https://g.alicdn.com/jssdk/u-link/index.min.js></script><script>var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?d815f2e1f682c86565c1063aafaef292";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();</script>
