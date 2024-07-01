@@ -1,1 +1,0 @@
-https://img.bizha.top/Bizha/favicon/QuickLook.png

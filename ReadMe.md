@@ -1,5 +1,5 @@
-作为图床使用。
+笔札图床
 
-CDN: https://github.com/yoval/Github2Jsdelivr 
+储存：Github
 
-已开启pages，https://img.bizha.top/
+CDN：又拍云
