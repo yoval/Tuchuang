@@ -1,7 +1,9 @@
 /*背景色*/
-.body {
+.html {
      background-image:linear-gradient(120deg,#e0c3fc 0%,#8ec5fc 100%) !important;
      background-attachment: fixed;
+	 padding: 0px;
+     margin: 0px;
 }
 /*隐藏 由 AList 驱动*/
  .hope-c-PJLV-igScBhH-css {
@@ -24,3 +26,8 @@
      transform:rotate(180deg);
      transition:all 0.6s;
 }
+.header{
+     opacity: 0.2; /* 设置透明度为 50% */
+	 background-image: linear-gradient(to right, #f8f9fa, #e9ecef);
+  }
+  
